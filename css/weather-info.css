@@ -1,0 +1,29 @@
+.weather_info {
+  padding: 20px;
+  margin: auto;
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  width: 95%;
+  height: 13rem;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  color: #000;
+}
+
+.weather_info_column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  font-size: 1.4rem;
+}
+
+.weather_info_column i {
+  font-size: 3rem;
+  color: #5fc3e4;
+}
+
+.weather_info_column:last-child i {
+  color: yellow;
+}

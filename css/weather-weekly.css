@@ -1,0 +1,39 @@
+#weather_weekly {
+  padding: 20px;
+  margin: auto;
+  margin-top: 1rem;
+  width: 95%;
+  height: 22rem;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.weather_weekly_day_box {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.weather_weekly_day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 20%;
+}
+
+.weather_weekly_weather_box {
+  color: #5fc3e4;
+  font-size: 4rem;
+  justify-content: space-around;
+  display: flex;
+}
+
+.weather_weekly_temperatures_box {
+  justify-content: space-around;
+  display: flex;
+}

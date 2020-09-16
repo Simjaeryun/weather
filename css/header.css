@@ -1,0 +1,9 @@
+.header_box {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2rem;
+}
+.header_box .header_icon {
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
