@@ -4,6 +4,7 @@
 @import "weather.css";
 @import "weather-info.css";
 @import "weather-weekly.css";
+@import "all.min.css";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap");
 
 html {
@@ -22,5 +23,4 @@ body {
   background: #e55d87;
   background: -webkit-linear-gradient(to bottom, #e55d87, #5fc3e4);
   background: linear-gradient(to bottom, #e55d87, #5fc3e4);
-  margin: 50px auto;
 }

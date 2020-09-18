@@ -1,25 +1,25 @@
-.weather {
+.weather_main {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.weather_location {
+.weather_main_location {
   font-weight: 700;
   margin-top: 2rem;
 }
 
-.weather_date {
+.weather_main_date {
   margin-top: 1.5rem;
   opacity: 0.7;
   font-size: 1.4rem;
 }
 
-.weather_weather {
+.weather_main_weather {
   margin-top: 3rem;
   font-size: 5rem;
 }
 
-.weather_sub_weather {
+.weather_main_sub_weather {
   margin-top: 1.5rem;
 }

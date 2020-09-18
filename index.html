@@ -4,13 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
+    <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"
-    />
   </head>
   <body>
     <div class="container">
@@ -22,24 +17,26 @@
           <div class="header_icon"><i class="fas fa-ellipsis-v"></i></div>
         </div>
       </header>
-      <section id="weather">
-        <div class="weather">
-          <div class="weather_location">
+      <section id="weather_main">
+        <div class="weather_main">
+          <div class="weather_main_location">
             <i class="fas fa-map-marker-alt"></i> &nbspGimpo
           </div>
-          <div class="weather_date">요일 날 월 시간</div>
-          <div class="weather_weather"><i class="fas fa-cloud"></i> 24도</div>
-          <div class="weather_sub_weather">체감온도 30도</div>
-          <div class="weather_sub_weather">구름많음</div>
+          <div class="weather_main_date">요일 날 월 시간</div>
+          <div class="weather_main_weather temp">
+            <i class="fas fa-cloud"></i> 24도
+          </div>
+          <div class="weather_main_sub_weather feels_like">체감온도 30도</div>
+          <div class="weather_main_sub_weather weather">구름많음</div>
         </div>
       </section>
       <section id="weather_info">
         <div class="weather_info">
           <div class="weather_info_column">
-            <i class="fas fa-cloud-showers-heavy"></i>&nbsp 강수량 50%
+            <i class="fas fa-cloud-showers-heavy humidity"></i>&nbsp 습도 50%
           </div>
-          <div class="weather_info_column">
-            <i class="fas fa-sun"></i>&nbsp 자외선차단지수 높음
+          <div class="weather_info_column wind">
+            <i class="fas fa-wind"></i>&nbsp 자외선차단지수 높음
           </div>
         </div>
       </section>
@@ -52,21 +49,33 @@
           <div class="weather_weekly_day"></div>
         </div>
         <div class="weather_weekly_weather_box">
-          <div class="weather_weekly_weather"><i class="fas fa-cloud"></i></div>
-          <div class="weather_weekly_weather"><i class="fas fa-cloud"></i></div>
-          <div class="weather_weekly_weather"><i class="fas fa-cloud"></i></div>
-          <div class="weather_weekly_weather"><i class="fas fa-cloud"></i></div>
-          <div class="weather_weekly_weather"><i class="fas fa-cloud"></i></div>
+          <div class="weather_weekly_weather weather">
+            <i class="fas fa-cloud"></i>
+          </div>
+          <div class="weather_weekly_weather weather">
+            <i class="fas fa-cloud"></i>
+          </div>
+          <div class="weather_weekly_weather weather">
+            <i class="fas fa-cloud"></i>
+          </div>
+          <div class="weather_weekly_weather weather">
+            <i class="fas fa-cloud"></i>
+          </div>
+          <div class="weather_weekly_weather weather">
+            <i class="fas fa-cloud"></i>
+          </div>
         </div>
         <div class="weather_weekly_temperatures_box">
-          <div class="weather_weekly_temperatures">25도d</div>
-          <div class="weather_weekly_temperatures">25도</div>
-          <div class="weather_weekly_temperatures">25도</div>
-          <div class="weather_weekly_temperatures">25도</div>
-          <div class="weather_weekly_temperatures">25도</div>
+          <div class="weather_weekly_temperatures temp">25도</div>
+          <div class="weather_weekly_temperatures temp">25도</div>
+          <div class="weather_weekly_temperatures temp">25도</div>
+          <div class="weather_weekly_temperatures temp">25도</div>
+          <div class="weather_weekly_temperatures temp">25도</div>
         </div>
       </section>
     </div>
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="js/slick.js"></script>
     <script src="js/weather.js"></script>
     <script src="js/weather-weekly.js"></script>
   </body>
